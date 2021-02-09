@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <NavBar />
-      {Component.displayName === 'WithApollo(Home)' && <Hero />}
+      <Hero />
       <Component {...pageProps} />
       <Footer />
     </>
