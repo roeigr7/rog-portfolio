@@ -22,7 +22,7 @@ const Skill = ({ updateVotes, votes, id, name }) => {
     updateVotes({ variables: { votes: votes + 1, id: id } });
   };
   return (
-    <Row className='m-0 p-0  d-flex justify-content-center justify-content-md-around align-items-center my-3'>
+    <Row className='m-0 p-0  d-flex justify-content-center justify-content-md-around align-items-center my-3 text-dark'>
       <Col className='p-0 m-0' xs={12} xl={2} lg={2} md={3}>
         {name}
       </Col>

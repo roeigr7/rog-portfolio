@@ -8,7 +8,7 @@ exports.connect = async () => {
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useFindAndModify: false,
+      useFindAndModify: true,
     },
     () => {
       console.log('connected db');

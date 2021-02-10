@@ -91,7 +91,7 @@ export const stackVariants = {
     scale: 1,
     opacity: 1,
     transition: {
-      duration: 0.4,
+      duration: 0.3,
       delay: i * 0.1,
     },
   }),

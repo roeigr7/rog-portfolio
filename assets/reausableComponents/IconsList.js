@@ -12,7 +12,7 @@ import {
 
 const IconsList = () => {
   return (
-    <Row className='mb-2 mb-sm-0 p-0 m-0 justify-content-center'>
+    <Row className='mb-0 mb-sm-0 p-0 m-0 justify-content-center'>
       <a href='https://www.instagram.com/roeigr/'>
         <Instagram className='social-icon instagram' />
       </a>

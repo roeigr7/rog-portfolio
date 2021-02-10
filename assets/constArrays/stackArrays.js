@@ -15,6 +15,8 @@ export const stackBackItems = [
   '/stackLogos/mongo.svg',
   '/stackLogos/mysql.svg',
   '/stackLogos/node.svg',
+  '/stackLogos/apollo.svg',
+  '/stackLogos/python.svg',
 ];
 export const stackOtherItems = [
   '/stackLogos/ai.svg',
@@ -22,4 +24,7 @@ export const stackOtherItems = [
   '/stackLogos/heroku.svg',
   '/stackLogos/ps.svg',
   '/stackLogos/wp.svg',
+  '/stackLogos/wix.svg',
+  '/stackLogos/sap.svg',
+  '/stackLogos/tableau.svg',
 ];

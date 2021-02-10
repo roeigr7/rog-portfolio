@@ -25,13 +25,13 @@ const Footer = () => {
             </small>
           </Col>
           <Col
-            className='my-1 d-flex justify-content-center align-items-center p-0 m-0'
+            className='my-1 mb-0 d-flex justify-content-center align-items-center p-0 m-0'
             md={6}
           >
             <IconsList size={40} />
           </Col>
           <Col className='d-flex justify-content-center text-center' md={3}>
-            <small>Made with React & bootstrap & mongoDb</small>
+            <small>Made with NextJs & bootstrap & mongoDb</small>
           </Col>
         </Row>
       </Container>
