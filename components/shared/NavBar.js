@@ -18,7 +18,7 @@ const NavBar = () => {
   return (
     <div
       className={
-        navBg ? 'navbar-with-bg mx-auto p-0 m-0' : 'py-2 navbar-wrapper'
+        navBg ? 'navbar-with-bg mx-auto pt-1 p-0 m-0' : 'py-2 navbar-wrapper'
       }
     >
       <Navbar expand='sm' className='main-nav p-0 m-0 mx-0'>

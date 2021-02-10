@@ -83,9 +83,7 @@ h6,
   height: 50px;
   min-width: 100%;
 }
-.navbar-toggler-icon {
-  font-size: 1.3rem;
-}
+
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1), 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
@@ -185,16 +183,15 @@ h6,
   border-radius: 10px;
   font-size: 3rem;
   color: white;
-  transition: all 0.2s ease-out;
+  transition: all 0.1s ease-out;
 }
+
 .social-icon:hover {
   outline: none !important;
   transform: scale(0.8);
-  transition: all 0.2s ease-out;
+  transition: all 0.1s ease-in;
 }
-.social-icon:active {
-  outline: none !important;
-}
+
 .custom-shape-divider-bottom-1612510755 {
   position: absolute;
   bottom: 0;
@@ -507,6 +504,13 @@ h6,
 .navbar-toggler-icon {
   margin-right: 10px;
   margin-top: 3px;
+  font-size: 1.3rem;
+  transition: all 0.1s;
+}
+
+.navbar-toggler-icon:hover {
+  transition: all 0.1s;
+  transform: rotate(360deg) !important;
 }
 .skill-button {
   font-size: 22px;
