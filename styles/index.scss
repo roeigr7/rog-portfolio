@@ -494,6 +494,11 @@ h6,
   border-color: transparent;
   border-width: 0;
   font-size: 1.35rem;
+  transition: all 0.2s;
+}
+.navbar-toggler-collapsed:hover {
+  transition: all 0.2s;
+  transform: rotate(360deg) !important;
 }
 .navbar-light .navbar-toggler {
   border-color: transparent;
@@ -505,13 +510,8 @@ h6,
   margin-right: 10px;
   margin-top: 3px;
   font-size: 1.3rem;
-  transition: all 0.1s;
 }
 
-.navbar-toggler-icon:hover {
-  transition: all 0.1s;
-  transform: rotate(360deg) !important;
-}
 .skill-button {
   font-size: 22px;
   background: transparent;
