@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import { MyLink } from '../../assets/reausableComponents/MyTags';
-
+import Image from 'next/image';
 const NavBar = () => {
   const [navBg, setNavBg] = useState(false);
   useEffect(() => {
@@ -22,12 +22,7 @@ const NavBar = () => {
       }
     >
       <Navbar expand='sm' className='main-nav p-0 m-0 mx-0'>
-        <MyLink
-          className='ml-2 navbar-brand font-weight-bold text-white'
-          href='/'
-        >
-          Roei
-        </MyLink>
+        <MyLink className='logo ml-2 mr-5' href='/'></MyLink>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className='mr-auto'>

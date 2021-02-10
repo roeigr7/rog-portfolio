@@ -16,7 +16,13 @@
   width: calc(156% + 1.3px);
   height: 92px;
 }
-
+.logo {
+  background-image: url('/logorg.png');
+  width: 40px;
+  opacity: 1;
+  background-size: contain;
+  height: 40px;
+}
 .banner-shape .shape-fill {
   fill: #fff;
 }
@@ -129,7 +135,7 @@ h6,
   fill: #ebfcfc;
 }
 .border-stack {
-  border-width: 0px 2px 0px 2px;
+  border-width: 0px 1px 0px 1px;
   border-style: solid;
   border-color: rgba(255, 255, 2555, 0.1);
 }
@@ -528,9 +534,7 @@ h6,
   position: relative;
   z-index: 1;
 }
-.stack-item {
-  padding: 5px;
-}
+
 ///////////////////////FLOAT ICONS///////////////////////
 .bubbles {
   position: absolute;

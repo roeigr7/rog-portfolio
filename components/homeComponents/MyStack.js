@@ -16,12 +16,15 @@ const MyStack = () => {
   return (
     <div id='stack' className='py-5 bg-lightdark'>
       <MyTitle variants={whiteHeaderVariants} text='My Stack' />
-      <h3 className='text-dark text-center'>
+      <h3 className='mb-4 text-dark text-center'>
         Here are all the technologies I specialize in
       </h3>
       <Container fluid className='p-0 m-0'>
         <Row className='m-0 p-0 px-0 md-px-5 d-flex justify-content-center align-items-start'>
-          <Col xs={4} className='m-0 p-0 d-flex flex-column align-items-center'>
+          <Col
+            xs={4}
+            className='border-stack m-0 p-1 d-flex flex-column align-items-center'
+          >
             <h4 className='pb-4'>FrontEnd</h4>
             <Row className='stack-wrapper p-0 px-0 px-md-4 m-0'>
               {stackFrontItems.map((item, i) => (
@@ -44,7 +47,7 @@ const MyStack = () => {
           </Col>
           <Col
             xs={4}
-            className='border-stack m-0 p-0 d-flex flex-column align-items-center'
+            className='border-stack m-0 p-1 d-flex flex-column align-items-center'
           >
             <h4 className='pb-4'>BackEnd</h4>
             <Row className='stack-wrapper p-0 px-0 px-md-4 m-0'>
@@ -68,7 +71,7 @@ const MyStack = () => {
           </Col>
           <Col
             xs={4}
-            className=' m-0 p-0 d-flex flex-column align-items-center'
+            className='border-stack  m-0 p-1 d-flex flex-column align-items-center'
           >
             <h4 className='pb-4'>Other</h4>
             <Row className='stack-wrapper p-0 px-0 px-md-4 m-0'>
