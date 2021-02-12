@@ -27,8 +27,8 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
-        <link rel='icon' href='/favicon.ico' />
+        <title>RoeiPortfolio</title>
+        <link rel='icon' href='/logorg.png' />
       </Head>
 
       <section className='p-0 m-0'>

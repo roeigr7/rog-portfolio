@@ -7,12 +7,14 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  z-index: 1000;
   transform: rotate(180deg);
 }
 
 .banner-shape svg {
   position: relative;
   display: block;
+  z-index: 1000;
   width: calc(156% + 1.3px);
   height: 92px;
 }
@@ -436,7 +438,7 @@ h6,
     rgba(26, 167, 236, 1) 100%
   );
   margin-top: -80px;
-  padding: 80px 0 80px 0;
+  padding: 80px 0 0px 0;
   z-index: 50;
   position: relative;
 }
@@ -494,13 +496,8 @@ h6,
   border-color: transparent;
   border-width: 0;
   font-size: 1.35rem;
-  transition: all 0.2s;
-  transform: rotate(360deg) !important;
 }
-.navbar-toggler-collapsed:hover {
-  transition: all 0.2s;
-  transform: rotate(360deg) !important;
-}
+
 .navbar-light .navbar-toggler {
   border-color: transparent;
   border-width: 0;
@@ -512,7 +509,10 @@ h6,
   margin-top: 3px;
   font-size: 1.3rem;
 }
-
+.navbar-toggler-icon:active {
+  transition: transform 0.2s ease-out;
+  transform: rotate(360deg);
+}
 .skill-button {
   font-size: 22px;
   background: transparent;
