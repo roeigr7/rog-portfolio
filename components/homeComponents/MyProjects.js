@@ -10,7 +10,6 @@ const MyProjects = () => {
       <ShapeMyprojects />
       <div className='header-divider'>
         <MyTitle variants={whiteHeaderVariants} text='My Projects' />
-        <h3 className='text-dark text-center'>Projects I have done so far</h3>
         <Container fluid className='px-1 pt-4 m-0'>
           <Row className='m-0 p-0'>
             <ProjectImage
@@ -35,7 +34,7 @@ const MyProjects = () => {
               title='Lior Massage'
               desc='google play app for treatments meetings | React Native and mongoDB'
               src='/projectsLogos/liorapp.jpg'
-              href='http://batkol.co.il'
+              href='https://play.google.com/store/apps/details?id=com.roygrintenn.roygrintenn'
             />
           </Row>
         </Container>

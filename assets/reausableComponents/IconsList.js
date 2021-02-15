@@ -19,7 +19,10 @@ const IconsList = () => {
       <a href='https://www.facebook.com/roy.grinshpan/'>
         <Facebook className='social-icon facebook' />
       </a>
-      <Sticky className='social-icon cv' />
+      <a href='https://www.docdroid.net/CLMahoU/roeigrresume-pdf'>
+        <Sticky className='social-icon cv' />
+      </a>
+
       <a href='https://www.linkedin.com/in/roei-grinshpan-a4884a179/'>
         <Linkedin className='social-icon linkedin' />
       </a>

@@ -47,7 +47,6 @@ const Home = () => {
               className='p-0 m-0 d-flex align-items-center justify-content-center'
             >
               <Col md={8} className='p-0 m-0 text-center'>
-                <h4 className='text-dark mb-4'>Rate me on my strong side</h4>
                 <SkillsList updateVotes={updateSkills} skills={skills} />
               </Col>
             </Row>

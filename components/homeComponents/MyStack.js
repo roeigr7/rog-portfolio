@@ -16,9 +16,7 @@ const MyStack = () => {
   return (
     <div id='stack' className='py-5 bg-lightdark'>
       <MyTitle variants={whiteHeaderVariants} text='My Stack' />
-      <h3 className='mb-4 text-dark text-center'>
-        Here are all the technologies I specialize in
-      </h3>
+
       <Container fluid className='p-0 m-0'>
         <Row className='m-0 p-0 px-0 md-px-5 d-flex justify-content-center align-items-start'>
           <Col

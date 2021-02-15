@@ -5,11 +5,15 @@ export const colorHeaderVariants = {
     WebkitTextFillColor: 'transparent',
     backgroundSize: '100%',
     color: 'white',
+    WebkitBackgroundImage:
+      'linear-gradient(45deg, #ffffff 0%, #ffffff 0%, #000000 0%)',
     backgroundImage:
       'linear-gradient(45deg, #ffffff 0%, #ffffff 0%, #000000 0%)',
   },
 
   visible: {
+    WebkitBackgroundImage:
+      'linear-gradient(45deg, #4adede 0%, #1aa7ec 100%, #ffffff 50%)',
     backgroundImage:
       'linear-gradient(45deg, #4adede 0%, #1aa7ec 100%, #ffffff 50%)',
     transition: {
@@ -26,11 +30,15 @@ export const whiteHeaderVariants = {
     WebkitTextFillColor: 'transparent',
     backgroundSize: '100%',
     color: 'white',
+    WebkitBackgroundImage:
+      'linear-gradient(45deg, #4adede 0%, #1aa7ec 100%, #ffffff 50%)',
     backgroundImage:
       'linear-gradient(45deg, #4adede 0%, #1aa7ec 100%, #ffffff 50%)',
   },
 
   visible: {
+    WebkitBackgroundImage:
+      'linear-gradient(45deg, #ffffff 0%, #ffffff 0%, #ffffff 0%)',
     backgroundImage:
       'linear-gradient(45deg, #ffffff 0%, #ffffff 0%, #ffffff 0%)',
 
